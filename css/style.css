@@ -96,20 +96,8 @@ header .logo {
     margin-bottom: 1rem;
 }
 
-/* Hide the details by default */
 .service-details {
-    display: none;
     margin-top: 1rem;
-}
-
-/* Style cursor to show it’s clickable */
-.service-title {
-    cursor: pointer;
-}
-
-/* Optional: add a hover effect */
-.service-box:hover {
-    box-shadow: 0 0 15px rgba(0,0,0,0.15);
 }
 
 
@@ -139,22 +127,23 @@ footer {
     margin-top: 2rem;
 }
 
-ul {
-    list-style: none; /* remove default bullets */
+#services ul {
+    list-style: none; 
+    list-style-position: inside;
     padding-left: 0;
 }
 
-ul li {
+#services ul li {
     position: relative;
-    padding-left: 25px; /* space for the custom bullet */
+    padding-left: 25px; 
     margin-bottom: 0.7rem;
 }
 
-ul li::before {
-    content: "✔";        /* use a checkmark, dot, or icon */
+#services ul li::before {
+    content: "✔";        
     position: absolute;
     left: 0;
-    color: #f5a427;      /* bullet color */
+    color: #f5a427;     
     font-weight: bold;
 }
 
