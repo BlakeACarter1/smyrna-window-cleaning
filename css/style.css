@@ -81,6 +81,7 @@ header .logo {
     margin-top: 2rem;
     margin-bottom: 4rem;
     justify-content: center;
+    align-items: stretch;
 }
 
 .service-box {
@@ -90,6 +91,8 @@ header .logo {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     text-align: center;
+    display: flex;        
+    flex-direction: column;
 }
 
 .service-box h3 {
@@ -98,6 +101,7 @@ header .logo {
 
 .service-details {
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .service-box ul {
