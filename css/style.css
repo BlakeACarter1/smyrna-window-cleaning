@@ -62,7 +62,7 @@ header .logo {
 
 .hero .btn {
     background-color: #f5a427;
-    color: #3282f6;
+    color: #1c185a;
     padding: 0.75rem 1.5rem;
     font-weight: bold;
     text-decoration: none;
@@ -79,6 +79,7 @@ header .logo {
     flex-wrap: wrap;
     gap: 2rem;
     margin-top: 2rem;
+    margin-bottom: 4rem;
     justify-content: center;
 }
 
@@ -94,6 +95,23 @@ header .logo {
 .service-box h3 {
     margin-bottom: 1rem;
 }
+
+/* Hide the details by default */
+.service-details {
+    display: none;
+    margin-top: 1rem;
+}
+
+/* Style cursor to show it’s clickable */
+.service-title {
+    cursor: pointer;
+}
+
+/* Optional: add a hover effect */
+.service-box:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
 
 /* Why Choose Us */
 #about ul {
