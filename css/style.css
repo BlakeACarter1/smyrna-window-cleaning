@@ -139,6 +139,26 @@ footer {
     margin-top: 2rem;
 }
 
+ul {
+    list-style: none; /* remove default bullets */
+    padding-left: 0;
+}
+
+ul li {
+    position: relative;
+    padding-left: 25px; /* space for the custom bullet */
+    margin-bottom: 0.7rem;
+}
+
+ul li::before {
+    content: "✔";        /* use a checkmark, dot, or icon */
+    position: absolute;
+    left: 0;
+    color: #f5a427;      /* bullet color */
+    font-weight: bold;
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
     .services-grid {
