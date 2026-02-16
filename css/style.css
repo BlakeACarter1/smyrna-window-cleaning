@@ -100,6 +100,30 @@ header .logo {
     margin-top: 1rem;
 }
 
+.service-box ul {
+    text-align: left;
+}
+
+#services ul {
+    list-style: none; 
+    padding-left: 0;
+}
+
+#services ul li {
+    position: relative;
+    padding-left: 25px; 
+    margin-bottom: 0.7rem;
+}
+
+#services ul li::before {
+    content: "✔";        
+    position: absolute;
+    left: 0;
+    color: #f5a427;     
+    font-weight: bold;
+}
+
+
 
 /* Why Choose Us */
 #about ul {
@@ -127,25 +151,6 @@ footer {
     margin-top: 2rem;
 }
 
-#services ul {
-    list-style: none; 
-    list-style-position: inside;
-    padding-left: 0;
-}
-
-#services ul li {
-    position: relative;
-    padding-left: 25px; 
-    margin-bottom: 0.7rem;
-}
-
-#services ul li::before {
-    content: "✔";        
-    position: absolute;
-    left: 0;
-    color: #f5a427;     
-    font-weight: bold;
-}
 
 
 /* Responsive */
