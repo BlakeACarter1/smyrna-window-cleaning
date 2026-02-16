@@ -77,5 +77,24 @@
     </div>
 </footer>
 
+
+<script>
+    // Get all service titles
+    const serviceTitles = document.querySelectorAll('.service-title');
+
+    serviceTitles.forEach(title => {
+        title.addEventListener('click', () => {
+            const details = title.nextElementSibling;
+            // Toggle display
+            if (details.style.display === 'block') {
+                details.style.display = 'none';
+            } else {
+                details.style.display = 'block';
+            }
+        });
+    });
+</script>
+
+
 </body>
 </html>
