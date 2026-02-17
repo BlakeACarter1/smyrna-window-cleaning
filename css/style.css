@@ -67,10 +67,18 @@ header .logo {
     padding: 0.75rem 1.5rem;
     font-weight: bold;
     text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 .hero .cta-button:hover {
-    background-color: #f79c14;
+    background-color: #f7990c;
+}
+
+.hero .cta-button:focus {
+    outline: 3px solid #1c185a;
+    outline-offset: 3px;
 }
 
 
