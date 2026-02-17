@@ -60,7 +60,7 @@ header .logo {
     margin-bottom: 2rem;
 }
 
-.hero .btn {
+.hero .cta-button {
     background-color: #f5a427;
     color: #1c185a;
     padding: 0.75rem 1.5rem;
@@ -69,7 +69,7 @@ header .logo {
     border-radius: 5px;
 }
 
-.hero .btn:hover {
+.hero .cta-button:hover {
     background-color: #f79c14;
 }
 
