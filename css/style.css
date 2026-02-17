@@ -73,6 +73,75 @@ header .logo {
     background-color: #f79c14;
 }
 
+/* Schedule section layout */
+#schedule {
+    padding: 4rem 1.5rem;
+    background-color: #f7fbff;
+    text-align: center;
+}
+
+#schedule h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Form container */
+#schedule form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Inputs + select + textarea */
+#schedule input,
+#schedule select,
+#schedule textarea {
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: inherit;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* Focus effect */
+#schedule input:focus,
+#schedule select:focus,
+#schedule textarea:focus {
+    outline: none;
+    border-color: #2da9ff;
+    box-shadow: 0 0 0 2px rgba(45, 169, 255, 0.2);
+}
+
+/* Textarea sizing */
+#schedule textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Submit button */
+#schedule button {
+    background-color: #2da9ff;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1.05rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+/* Button hover */
+#schedule button:hover {
+    background-color: #1b8fe0;
+    transform: translateY(-2px);
+}
+
 /* Services Section */
 .services-grid {
     display: flex;
@@ -166,5 +235,8 @@ footer {
     header .header-container {
         flex-direction: column;
         align-items: center;
+    }
+    #schedule {
+        padding: 3rem 1rem;
     }
 }
