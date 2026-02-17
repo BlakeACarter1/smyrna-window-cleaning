@@ -63,10 +63,10 @@ header .logo {
 .hero .cta-button {
     background-color: #f5a427;
     color: #1c185a;
+    font-size: 1.2rem;
     padding: 0.75rem 1.5rem;
     font-weight: bold;
     text-decoration: none;
-    border-radius: 5px;
 }
 
 .hero .cta-button:hover {
